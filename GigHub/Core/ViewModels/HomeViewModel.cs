@@ -1,8 +1,8 @@
-﻿using GigHub.Models;
+﻿using GigHub.Core.Models;
 using System.Collections.Generic;
 using System.Linq;
 
-namespace GigHub.ViewModels
+namespace GigHub.Core.ViewModels
 {
     public class HomeViewModel
     {

@@ -1,6 +1,7 @@
-﻿using GigHub.Repositories;
+﻿using GigHub.Core.Repositories;
+using GigHub.Persistence.Repositories;
 
-namespace GigHub.Persistence
+namespace GigHub.Core
 {
     public interface IUnitOfWork
     {
@@ -8,6 +9,8 @@ namespace GigHub.Persistence
         IFollowerRepository Followers { get; }
         IGenreRepository Genres { get; }
         IGigRepository Gigs { get; }
+        IHomeRepository Home { get; }
+        INotificationRepository Notifications { get; }
 
         void Complete();
     }

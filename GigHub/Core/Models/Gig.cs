@@ -4,7 +4,7 @@ using System.Collections.ObjectModel;
 using System.ComponentModel.DataAnnotations;
 using System.Linq;
 
-namespace GigHub.Models
+namespace GigHub.Core.Models
 {
     public class Gig
     {
@@ -31,7 +31,7 @@ namespace GigHub.Models
             Attendances = new Collection<Attendance>();
         }
 
-        internal void Cancel()
+        public void Cancel()
         {
             IsCanceled = true;
 

@@ -1,9 +1,6 @@
-﻿using GigHub.Models;
-using System;
-using System.Collections.Generic;
-using System.ComponentModel.DataAnnotations;
+﻿using System;
 
-namespace GigHub.Controllers.Api
+namespace GigHub.Core.Dto
 {
     public class GigDto
     {

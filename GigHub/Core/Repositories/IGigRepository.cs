@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
-using GigHub.Models;
+using GigHub.Core.Models;
 
-namespace GigHub.Repositories
+namespace GigHub.Core.Repositories
 {
     public interface IGigRepository
     {
@@ -11,5 +11,6 @@ namespace GigHub.Repositories
         IEnumerable<Gig> GetGigsUserAttending(string userId);
         Gig GetGigWithAttendees(int id);
         IEnumerable<Gig> GetMyUpcommingGigs(string userId);
+        Gig GetGigWithAttendees(int gigId, string userId);
     }
 }

@@ -1,14 +1,12 @@
 ﻿using GigHub.Controllers;
-using GigHub.Models;
+using GigHub.Core.Models;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
-using System.Linq;
 using System.Linq.Expressions;
-using System.Web;
 using System.Web.Mvc;
 
-namespace GigHub.ViewModels
+namespace GigHub.Core.ViewModels
 {
     public class GigFormViewModel
     {
