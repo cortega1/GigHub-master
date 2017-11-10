@@ -9,7 +9,7 @@ using System.Web.Mvc;
 
 namespace GigHub.Controllers
 {
-    [Authorize]
+    [Authorize] 
     public class AccountController : Controller
     {
         private ApplicationSignInManager _signInManager;

@@ -13,7 +13,7 @@ namespace GigHub.Test.Controllers.Api
 {
     [TestClass]
     public class AttendancesControllerTest
-    {
+    { 
         private AttendancesController _controller;
         private Mock<IAttendanceRepository> _mockRepository;
         private string _userId;
