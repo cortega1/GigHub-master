@@ -33,7 +33,7 @@ namespace GigHub.Core.Models
             Notification = notification;
         }
 
-        internal void Read()
+        public void Read()
         {
             this.IsRead = true;
         }
