@@ -9,7 +9,7 @@ namespace GigHub.Core.Models
     public class Gig
     {
         public int ID { get; set; }
-
+        
         public bool IsCanceled { get; private set; }
 
         public ApplicationUser Artist { get; set; }
